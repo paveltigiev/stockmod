@@ -1,13 +1,10 @@
 <script setup>
+import MarketBots from '../components/marketBots/MarketBots.vue';
 </script>
 
 <template>
 	<div class="panel">
-		<div class="bots-grid">
-			<div class="bots-grid-item">
-				BTC/USDT
-			</div>
-		</div>
+		<market-bots />
 	</div>
 </template>
 

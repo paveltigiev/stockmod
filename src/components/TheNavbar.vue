@@ -10,7 +10,7 @@
 		</nav>
 
 		<nav class="secondary-nav">
-			<router-link to="#" class="nav-link">Profile</router-link>
+			<router-link to="/profile" class="nav-link">Profile</router-link>
 		</nav>
 
   </header>

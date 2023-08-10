@@ -12,6 +12,7 @@ body {
 .container {
 	width: 100%;
 	max-width: 1280px;
+	padding: 0 2em;
 	margin: 0 auto;
 }
 
@@ -75,12 +76,12 @@ body {
 
 	&.router-link-active {
 		background: rgba(255, 255, 255, 0.1);
-		color: #fff;
+		color: var(--vt-c-white-soft);
 	}
 
 	&:hover {
-		background: rgba(255, 255, 255, 0.1);
-		color: #fff;
+		background: #1e1e1e;
+		color: var(--vt-c-white-soft);
 		transition: all 0.3s ease;
 	}
 }
@@ -93,14 +94,28 @@ body {
 	overflow: hidden;
 }
 
-.bots-grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin-right: -1px;
-	margin-bottom: -1px;
-	.bots-grid-item {
-		padding: 1em;
-		border-right: 1px solid var(--color-border);
-		border-bottom: 1px solid var(--color-border);
+.btn {
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--button-background-color);
+	color: var(--button-text-color);
+	cursor: pointer;
+	border: none;
+	user-select: none;
+	white-space: nowrap;
+	width: auto;
+	font-size: 14px;
+	line-height: 18px;
+	height: 36px;
+	min-height: 36px;
+	border-radius: 8px;
+	padding: 0px 16px;
+	
+	&.btn-primary1 {
+		--button-background-color: var(--primary-color);
+		--button-active-background-color: rgba(89,115,254,0.8);
+		--button-text-color: var(--vt-c-white-soft);
 	}
 }
