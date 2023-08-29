@@ -8,92 +8,179 @@ export const useMarketBotsStore = defineStore('MarketBotsStore', () => {
 			id: '1',
 			name: 'Super profit Bot',
 			type: 'DA Long strategy',
-			roi: '53.31',
-			pnl: '14,450',
-			mdd: '65.18',
-			win_rate: '59.66'
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
 		},
 		{
 			id: '2',
 			name: 'Super profit Bot',
 			type: 'DA Long strategy',
-			roi: '53.31',
-			pnl: '14,450',
-			mdd: '65.18',
-			win_rate: '59.66'
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
 		},
 		{
 			id: '3',
 			name: 'Super profit Bot',
 			type: 'DA Long strategy',
-			roi: '53.31',
-			pnl: '14,450',
-			mdd: '65.18',
-			win_rate: '59.66'
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
 		},
 		{
 			id: '4',
 			name: 'Super profit Bot',
 			type: 'DA Long strategy',
-			roi: '53.31',
-			pnl: '14,450',
-			mdd: '65.18',
-			win_rate: '59.66'
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
 		},
 		{
 			id: '5',
 			name: 'Super profit Bot',
 			type: 'DA Long strategy',
-			roi: '53.31',
-			pnl: '14,450',
-			mdd: '65.18',
-			win_rate: '59.66'
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
 		},
 		{
 			id: '6',
 			name: 'Super profit Bot',
 			type: 'DA Long strategy',
-			roi: '53.31',
-			pnl: '14,450',
-			mdd: '65.18',
-			win_rate: '59.66'
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
 		},
 		{
 			id: '7',
 			name: 'Super profit Bot',
 			type: 'DA Long strategy',
-			roi: '53.31',
-			pnl: '14,450',
-			mdd: '65.18',
-			win_rate: '59.66'
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
 		},
 		{
 			id: '8',
 			name: 'Super profit Bot',
 			type: 'DA Long strategy',
-			roi: '53.31',
-			pnl: '14,450',
-			mdd: '65.18',
-			win_rate: '59.66'
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
 		},
 		{
 			id: '9',
 			name: 'Super profit Bot',
 			type: 'DA Long strategy',
-			roi: '53.31',
-			pnl: '14,450',
-			mdd: '65.18',
-			win_rate: '59.66'
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
 		},
 		{
 			id: '10',
 			name: 'Super profit Bot',
 			type: 'DA Long strategy',
-			roi: '53.31',
-			pnl: '14,450',
-			mdd: '65.18',
-			win_rate: '59.66'
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
 		},
+		{
+			id: '11',
+			name: 'Super profit Bot',
+			type: 'DA Long strategy',
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
+		},
+		{
+			id: '12',
+			name: 'Super profit Bot',
+			type: 'DA Long strategy',
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
+		},
+		{
+			id: '13',
+			name: 'Super profit Bot',
+			type: 'DA Long strategy',
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
+		},
+		{
+			id: '14',
+			name: 'Super profit Bot',
+			type: 'DA Long strategy',
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
+		},
+		{
+			id: '15',
+			name: 'Super profit Bot',
+			type: 'DA Long strategy',
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
+		},
+		{
+			id: '16',
+			name: 'Super profit Bot',
+			type: 'DA Long strategy',
+			statistics: {
+				roi: '53.31',
+				pnl: '14,450',
+				mdd: '65.18',
+				win_rate: '59.66'
+			}
+		},
+
 	])
 
 

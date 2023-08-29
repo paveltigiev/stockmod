@@ -1,13 +1,24 @@
 <script setup>
-import MarketBots from '../components/marketBots/MarketBots.vue';
+import { computed } from 'vue'
+import MarketBotsItem from '../components/marketBots/MarketBotsItem.vue'
+import { useMarketBotsStore } from '../stores/MarketBotsStore'
+
+const store = useMarketBotsStore()
+
+const marketBots = computed(() => store.marketBots)
 </script>
 
 <template>
-	<div class="panel">
-		<market-bots />
-	</div>
+  <div class="bots-grid">
+    <market-bots-item v-for="botItem in marketBots" :key="botItem.id" :botItem="botItem" />
+  </div>
 </template>
 
-<style>
-
+<style lang="scss" scoped>
+.bots-grid {
+  margin: 32px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
 </style>
